@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="sytle.css">
+    <style type="text/css" >
+        @font-face{
+            font-family: quicksand;
+            src: url("font/Quicksand Bold 700.ttf");
+        }
+    .quicksand{
+        font-family: "quicksand";
+    }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Tugas Bootstrap</title>
+</head>
+<body>
+<!--Navbar-->
+<div class="container">
+    <div class="row mt-4">
+        <div class="col-md-6 offset-md-1 navbar">
+            <img src="gambar/eduwork.png" alt="logo" width="180px" height="30px">
+        </div>
+        <div class="col-md-1 offset-md-4 navbar">
+            <a style="color: #4DB7FE;" href="https://eduwork.id/"><h5><b>Home</b></h5></a>
+        </div>
+        <div class="col-md-1 m2-1 navbar">
+            <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown"><b>Kelas</b>
+                <span class="caret"></span></button>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                <li role="presentation"><a role="menuitem" href="#">Private Mentoring</a></li>
+                <li role="presentation"><a role="menuitem" href="#">Webinar</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-1 m1-4 navbar3">
+            <img src="gambar/icons8-enter-48.png" alt="enter" width="16px"><a href="#" style="color: black;"><b> Sign In</b></a>
+        </div>
+        <div class="col-md-2 m1-4 navbar4">
+            <button class="register" type="button"><b>Register+</b></button>
+        </div>
+    </div>
+</div>
+<!--Navbar-->
+<!-- Header -->
+<div id="video">
+    <div class="overlay"></div>
+    <video autoplay muted loop src="video/repeat-medium.mp4"></video>
+</div>
+<div class="single-item">
+    <div>
+        <h2 class="judul" align="center">
+        Raih profesi idamanmu, kami bantu <br>
+        sampai diterima kerja<br>
+        <p1>tanpa biaya pendaftaran !</p1>
+        </h2>
+        <div>
+            <center><button class="button" type="sumbit"><b>DAFTAR SEKARANG</b></button></center>
+        </div>
+    </div>
+</div>
+
+<!-- <div class="header" style="background-image: url('gambar/header.jpg');">
+    <div class="single-item">
+        <div>
+            <h2 class="judul" align="center">
+            Raih profesi idamanmu, kami bantu <br>
+            sampai diterima kerja<br>
+            <p1>tanpa biaya pendaftaran</p1>
+            </h2>
+            <div>
+                <center><button class="button" type="sumbit"><b>DAFTAR SEKARANG</b></button></center>
+            </div>
+        </div>
+    </div> -->
+<!-- Header -->
+<!-- Content -->
+<div class="content">
+    <center> 
+        <table class="tabel">
+            <tr>
+                <td width="1440px" height="183px"></td>
+            </tr>
+        </table>
+    </center>
+    <center>
+        <table class="isi" >
+            <tr><td width="100px"></td>
+                <td><img src="gambar/icons8-monitor-32.png" width="50px" alt=""></td>
+                <td><p> <span>Apa sih eduwork itu?</span></p></td>
+                <td width="50px"></td>
+                <td><img src="gambar/icons8-monitor-32.png" width="50px" alt=""></td>
+                <td><p> <span> Program ISA</span></p></td>
+                <td width="50px"></td>
+                <td><img src="gambar/icons8-user-24.png" width="50px" alt=""></td>
+                <td><p> <span> Berbagi Mentor </span></p></td>
+                <td width="100px"></td>
+            </tr>
+            <tr><td></td>
+                <td></td>
+                <td align="left" valign="top"><p>Platform yang membantu kamu mendapatkan pekerjaan, di bimbing oleh mentor yang akan menjadi teman seperjuanganmu dalam belajar & ber-karir.</p></td>
+                <td width="50px"></td>
+                <td></td>
+                <td align="left" valign="top"><p>Dengan program Income Sharing Agreement, kamu bisa fokus belajar dulu, bayarnya nanti setelah mendapatkan kerja / penghasilan.</p></td>
+                <td width="50px"></td>
+                <td></td>
+                <td align="left" valign="top"><p>Ada berbagai mentor / kelas yang tersedia berbagai bidang. Pilih mentor atau bidang yang kalian inginkan. Dan kejar pekerjaan idaman kalian !</p></td>
+                <td width="50px"></td>
+            </tr>
+            <tr><td width="100px"></td>
+                <td><img src="gambar/icons8-services-50.png" width="50px" alt=""></td>
+                <td><p> <span> Penyaluran Kerja</span></p></td>
+                <td width="50px"></td>
+                <td><img src="gambar/icons8-user-24.png" width="50px" alt=""></td>
+                <td><p> <span> Ilmu Praktis</span></p></td>
+                <td width="50px"></td>
+                <td><img src="gambar/icons8-monitor-32.png" width="50px" alt=""></td>
+                <td><p> <span> Flexible Intensif </span></p></td>
+                <td width="50px"></td>
+            </tr>
+            <tr><td></td>
+                <td></td>
+                <td align="left" valign="top"><p>Setelah lulus kamu akan dibantu untuk mendapatkan pekerjaan sesuai dengan ilmu yang kalian pelajari.</p></td>
+                <td width="50px"></td>
+                <td></td>
+                <td align="left" valign="top"><p>Dibimbing oleh mentor yang berpengalaman di dunia industri, jadi belajar praktek praktis, bukan sebatas teori akademik!</p></td>
+                <td width="50px"></td>
+                <td></td>
+                <td align="left" valign="top"><p>Bisa secara Online atau Offline, diskusikan & sepakati saja semuanya dengan mentormu !</p></td>
+                <td width="50px"></td>
+            </tr>
+        </table>
+    </center>
+</div>
+<!-- Content -->
+</table>
+</body>
+</html>
